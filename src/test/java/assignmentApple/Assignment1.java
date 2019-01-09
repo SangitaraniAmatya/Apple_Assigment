@@ -140,7 +140,7 @@ public class Assignment1 {
 	public void printHighestRevenueCar() throws ParseException, FileNotFoundException, IOException  {
 		List<String>  lowestCar =new ArrayList<String>();
 		System.out.println("==================================================================");
-		System.out.println("********Question3******");
+		System.out.println("***********Question3**********");
 		System.out.println("==================================================================");
 
 		Double HighestProfit=(Double) 0.0;
