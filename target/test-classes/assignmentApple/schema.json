@@ -1,0 +1,23 @@
+Car: {
+
+     "make": <String>
+	  "model": <String>
+     "vin": <String>
+     "metadata" : {
+         "Color" : <String>
+         "Notes" : <String>
+         }
+     "perdayrent" : {
+        "Price" : <Float>
+         "Discount" : <Float>
+         }
+     "metrics" : {
+         "yoymaintenancecost" : <Float>
+         "depreciation": <Float>
+         "rentalcount" : {
+             "lastweek" : <Int>
+             "yeartodate" : <Int>
+             }
+         }
+    }
+    
