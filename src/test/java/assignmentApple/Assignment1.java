@@ -61,6 +61,9 @@ public class Assignment1 {
 
 					
 	}
+	//Question 2: Return all cars which have the lowest per day rental cost for both cases:
+	//a. Price only
+	//b. Price after discounts
 	@Test
 	public void printLowestRateCar() throws ParseException, FileNotFoundException, IOException  {
 		System.out.println("==================================================================");
@@ -131,7 +134,8 @@ public class Assignment1 {
 			}
 		
 		}
-					
+	///Question 3: Find the highest revenue generating car. year over year maintenance cost + depreciation is the total expense per car for the full year for the rental car company.
+	//The objective is to find those cars that produced the highest profit in the last year	
 	@Test
 	public void printHighestRevenueCar() throws ParseException, FileNotFoundException, IOException  {
 		List<String>  lowestCar =new ArrayList<String>();
